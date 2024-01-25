@@ -5,6 +5,7 @@ const app = express();
 
 app.use(express.json());
 app.use("/", indexRouter);
+//routing ko level ma kei error ayasi try catch throw garne
 
 app.listen(8000, () => {
   console.log("Server is up");
